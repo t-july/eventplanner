@@ -13,7 +13,11 @@
 
   <div class="field">
     <%= f.label :event_title %><br>
-    <%= f.text_area :event_title %>
+    <%= f.text_area :event_title %><br/>
+    <%= f.label "Event start date" %><br>
+    <%= f.datetime_select :event_start %><br>
+    <%= f.label "Event end date" %><br>
+    <%= f.date_select :event_start %>
   </div>
   <div class="field">
     <%= f.label :event_text %><br>
